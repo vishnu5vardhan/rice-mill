@@ -1,0 +1,11 @@
+-- MVP v0 reference seed notes.
+--
+-- The requested reference values are represented as enums or CHECK constraints:
+-- - product_type enum: paddy, rice, bran, broken_rice, husk
+-- - paddy_source_type enum: government, private, farmer_custom, own_purchase, unknown
+-- - document_type enum
+-- - party_type enum
+-- - expenses.expense_category CHECK: labour, transport, electricity, maintenance, other
+--
+-- No demo parties are seeded because party identity must be mill-specific and human-confirmed.
+

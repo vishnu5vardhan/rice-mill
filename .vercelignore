@@ -1,0 +1,26 @@
+# Local dependencies and build output
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.rtf
+open ai api key.rtf
+
+# Local/project metadata not needed at runtime
+.git/
+.vercel/
+.DS_Store
+
+# Development/test artifacts
+tests/
+Context/
+DATABASE_NOTES.md
+
+# Root Supabase migration/source files are not needed by the Vercel runtime.
+# Keep lib/supabase/** because the app imports runtime Supabase clients.
+/supabase/

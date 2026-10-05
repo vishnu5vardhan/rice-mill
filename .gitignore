@@ -1,0 +1,24 @@
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.rtf
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+*.tsbuildinfo
+
+# Supabase local state
+supabase/.temp/
+
+# OS / editor cruft
+.DS_Store
+.vercel
+.gstack/
+
+# Private operational source documents
+Context/data/
